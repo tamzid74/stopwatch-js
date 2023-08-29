@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css"
+      rel="stylesheet"type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+        <h1 class="text-5xl font-extrabold text-center mt-10">StopWatch</h1>
+        <div class="flex justify-center gap-20 text-4xl mt-10">
+            <span id="hours-field">0</span>
+            <span id="minutes-field">0</span>
+            <span id="seconds-field">0</span>
+        </div>
+        <div class="flex justify-center gap-14 text-3xl mt-2">
+            <p>hrs</p>
+            <p>mins</p>
+            <p>ses</p>
+        </div>
+        <div class="flex justify-center gap-14 text-2xl mt-10">
+            <button class="btn-primary px-3 py-2 rounded-lg hover:bg-red-400">Start</button>
+            <button class="btn-primary px-3 py-2 rounded-lg hover:bg-red-400">Stop</button>
+            <button class="btn-primary px-3 py-2 rounded-lg hover:bg-red-400">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
